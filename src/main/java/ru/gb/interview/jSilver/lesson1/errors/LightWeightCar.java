@@ -1,6 +1,6 @@
 package ru.gb.interview.jSilver.lesson1.errors;
 
-class LightWeightCar extends Car implements Moveable {
+public class LightWeightCar extends Car implements Moveable {
     @Override
     public void open() {
         System.out.println("Car is open");
