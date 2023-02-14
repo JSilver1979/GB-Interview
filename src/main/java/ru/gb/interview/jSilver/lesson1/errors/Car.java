@@ -1,13 +1,14 @@
-package ru.gb.interview.jSilver.lesson1;
+package ru.gb.interview.jSilver.lesson1.errors;
 
-abstract class Car {
-    public Engine engine;
+public abstract class Car {
+    private Engine engine;
     private String color;
     private String name;
-    protected void start() {
+    public void start() {
         System.out.println("Car starting");
     }
-    abstract void open();
+    public abstract void open();
+    public abstract void close();
     public Engine getEngine() {
         return engine;
     }
